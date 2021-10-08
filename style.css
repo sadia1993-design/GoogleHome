@@ -1,0 +1,143 @@
+*{
+    margin: 0;padding: 0;outline: 0;box-sizing: border-box;
+}
+ul{list-style: none;}
+ul li{display: inline-block;}
+ul li a{display: block; text-decoration: none; color: #000; }
+img{
+    max-width: 100%; height: auto;
+}
+.container  {
+    width: 1304px;
+    margin: 0 auto;
+}
+/*  ================== header area ===================*/
+header#header-area {
+    padding: 15px 0;
+}
+
+header#header-area ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+header#header-area ul li a img {
+    border-radius: 50%;
+}
+
+header#header-area ul li {
+    margin-right: 16px;
+}
+
+header#header-area ul li:last-child {
+    margin-right: 0;
+}
+
+header#header-area ul.menu-list li a i {
+    font-size: 20px;
+}
+li.mt {
+    margin-top: 7px;
+}
+
+/*=========================footer area======================*/
+footer#footer-area {
+    background: #f2f2f2;
+}
+
+.footer-bottom .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-left  ul li a, .menu-right ul li a {
+    color: #70757a;
+    font-size: 14px;
+}
+.footer-top {
+    border-bottom: 1px solid #dadce0;
+    padding: 20px 0;
+}
+.footer-bottom {
+    padding: 17px 0;
+}
+.footer-top p {
+    color: #70757a;
+    font-size: 16px;
+}
+.menu-left ul li {
+    margin-right: 15px;
+}
+
+.menu-right ul li {
+    margin-left: 15px;
+}
+/*=========================middle section======================*/
+section#content-area {
+    text-align: center;
+    display: flex;
+}
+section#content-area {
+    text-align: center;
+    display: flex;
+    padding-bottom: 175px;
+}
+
+input.searchBox {
+    border: 1px solid #dfe1e5;
+    width: 584px;
+    padding: 16px 0;
+    border-radius: 30px;
+}
+.formDiv input:hover {
+    box-shadow: 3px 2px 3px rgb(183 178 178 / 50%), -3px -2px 3px rgb(183 178 178 / 50%);
+}
+.formDiv span {
+    position: absolute;
+    left: 29%;
+    top: 32%;
+    font-size: 16px;
+    color: #d8d8db;
+}
+.actionBtn {
+    margin-bottom: 50px;
+}
+.actionBtn a:last-child {
+    margin-right: 0;
+}
+.customBtn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin-right: 11px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 11px 16px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+}
+.formDiv {
+    position: relative;
+    margin-bottom: 38px;
+    margin-top: 13px;
+}
+
+.group-icon {
+    position: absolute;
+    right: 30%;
+    bottom: 27%;
+}
+
+.group-icon a {
+    margin-right: 14px;
+    font-size: 16px;
+}
+
+.group-icon a:last-child {
+    margin-right: 0;
+}
