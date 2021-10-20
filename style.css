@@ -88,7 +88,7 @@ section#content-area {
 input.searchBox {
     border: 1px solid #dfe1e5;
     width: 584px;
-    padding: 16px 0;
+    padding: 16px 44px;
     border-radius: 30px;
 }
 .formDiv input:hover {
